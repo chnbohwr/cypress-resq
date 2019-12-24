@@ -6,7 +6,11 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "chnbohwr@gmail.com",
-  "license": "ISC",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/chnbohwr/cypress-resq"
+  },
+  "license": "MIT",
   "dependencies": {
     "resq": "^1.7.0"
   }
