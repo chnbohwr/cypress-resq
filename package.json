@@ -1,14 +1,14 @@
 {
   "name": "cypress-resq",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "chnbohwr@gmail.com",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/chnbohwr/cypress-resq"
+    "type": "git",
+    "url": "https://github.com/chnbohwr/cypress-resq"
   },
   "license": "MIT",
   "dependencies": {
