@@ -47,6 +47,9 @@ ReactDOM.render(<App />, document.getElementById('root'))
 ```
 Selecting `MyComponent` and click it by cypress:
 ```javascript
+// it's important to inject resq command after visit react page.
+cy.visit('/').injectResq();
+// find element by react component name
 cy.resq$('MyComponent').click();
 ```
 
